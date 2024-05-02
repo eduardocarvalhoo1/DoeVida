@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(-90deg, crimson, red, darkred);
+}
+.tl-login{
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 110px;
+    border-radius: 15px;
+    align-items: center;
+    width: min-content;
+}
+.input{
+    min-width: 280px;
+    border-radius: 22px;
+    border: 2px gray solid;
+    padding: 5px;
+    margin: 0px 0px 10px -5px;
+
+}
+.input input{
+    width: 80%;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    transform: translateY(-10%);
+    font-size: 11pt;
+}
+.material-symbols-outlined{
+    font-size: 1.2em;
+    padding: 5px;
+    background: -webkit-linear-gradient(-90deg, crimson, red, darkred);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#ibotao{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9em;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    background: linear-gradient(-45deg, crimson, red, darkred);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
