@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+    <title>Cadastro</title>
+</head>
+<body>
+    <h1>Cadastro</h1>
+
+    <form action="login.html" method="post">
+        <p>
+            <label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome" required>
+        </p>
+
+        <p>
+            <label for="isobrenome">Sobrenome:</label> 
+            <input type="text" name="sobrenome" id="isobrenome>" required>
+        </p>
+
+        <p>
+            <label for="iemail">E-mail:</label>
+            <input type="email" name="email" id="iemail" required>
+        </p>
+
+        <p>
+            <label for="isenha">Senha:</label>
+            <input type="password" name="senha" id="isenha" required>
+        </p>
+
+        <p>
+            <label for="inasci">Data de nascimento: </label>
+            <input type="date" name="nascimento" id="inasci" required max="2008-04-30">
+        </p>
+
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+</body>
+</html>
