@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz@0,6..12;1,6..12&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Roboto&display=swap');
 *{
     margin: 0 auto;
     padding: 0;
@@ -29,17 +30,153 @@
 
 }
 
-#razao{
+#cadastro{
+    float: right;
+}
+
+#menu-nav ul li:last-child a{
+    float: right;
+}
+
+.titulo{
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     line-height: 50px;
     font-size: 40px;
     color: #dd3333;
-    padding-top: 100px;
+    padding: 50px;
 }
 
-#cau{
+
+p{
+    text-align: justify;
+    padding-top: 30px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.lista a{
+    text-decoration: none;
+    color: #dd3333;
+}
+
+.lista{
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    width: 800px;
+    list-style: none;
+    
+}
+
+.lista li {
+    position: relative;
+    margin-bottom: 15px; 
+    padding-left: 30px; 
+}
+
+.lista li .fa-check {
+    position: absolute; 
+    left: 0; 
+    width: 20px;
+    font-size: 18px;
+    color: #dd3333;
+}
+
+.img{
+    padding-top: 20px;
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+}
+
+.lista li .fa-times{
+    position: absolute; 
+    left: 0; 
+    width: 20px;
+    font-size: 18px;
+    color: #dd3333;
+}
+
+.lista li .fa-clock{
+    position: absolute; 
+    left: 0; 
+    width: 20px;
+    font-size: 18px;
+    color: #dd3333;
+}
+
+.lista li .fa-phone{
+    position: absolute; 
+    left: 0; 
+    width: 20px;
+    font-size: 18px;
+    color: #dd3333;
+}
+
+.lista li .fa-calendar{
+    position: absolute; 
+    left: 0; 
+    width: 20px;
+    font-size: 18px;
+    color: #dd3333;
+}
+
+.lista li .fa-location-dot{
+    position: absolute; 
+    left: 0; 
+    width: 20px;
+    font-size: 18px;
+    color: #dd3333;
+}
+
+#imghemepar{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#map{
+    padding: 20px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+footer {
+    text-align: center; /* Centraliza o conteúdo */
+    background-color: #F21D56;
+    padding-bottom: 20px;
+}
+
+footer p {
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
     text-align: center;
-    color: red;
+    margin-bottom: 5px;
 }
 
+#dev {
+    display: inline-block;
+}
+
+#dev p {
+    display: inline; 
+}
+
+.buttons {
+    display: inline-block; 
+    margin-left: 5px; 
+    margin-right: 5px;
+}
+
+.buttons a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px; 
+}

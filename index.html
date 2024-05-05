@@ -4,37 +4,226 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-    <title>Doe sangue</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>DoeVida</title>
 </head>
 <body>
     <header>
         <nav id="menu-nav">
             <ul>
-                <li><a href="#">RAZÕES PARA SER UM DOADOR(A)</a></li>
-                <li><a href="#">REQUISITOS PARA DOAÇÃO</a></li>
-                <li><a href="#">IMPEDIMENTO TEMPORÁRIO</a></li>
-                <li><a href="#">IMPEDIMENTO DEFINITIVO</a></li>
-                <li><a href="#">UCT DE CORNÉLIO PROCÓPIO</a></li>
+                <li><a href="#razao">RAZÕES PARA SER UM DOADOR(A)</a></li>
+                <li><a href="#requisitos">REQUISITOS PARA DOAÇÃO</a></li>
+                <li><a href="#imptemp">IMPEDIMENTO TEMPORÁRIO</a></li>
+                <li><a href="#impdef">IMPEDIMENTO DEFINITIVO</a></li>
+                <li><a href="#uctcp">UCT DE CORNÉLIO PROCÓPIO</a></li>
+                <li id="cadastro"><a href="cadastro.html">Cadastrar</a></li>
+                <li><a href="login.html">Entrar</a></li>
             </ul>
         </nav>
     </header>
     
-    <div>
-        <h3 id="razao">O sangue é peça fundamental na vida de qualquer ser humano. Ele auxilia no tratamento de inúmeros casos e salva vidas!</h3>
-    </div>
 
-    <ul id="lirazao">
-        <li style="opacity: 1; left: 0px;">
-            30% do sangue do Grupo Vita ajuda a Rede Pública de Saúde, o SUS;
+    <article id="razao">
+        <h1 class="titulo">Por que é importante doar sangue?</h1>
+
+        <p>
+            A doação de sangue é fundamental em diversas situações médicas. Pessoas que sofrem de doenças crônicas sanguíneas, como a anemia falciforme ou distúrbios de coagulação, frequentemente necessitam de transfusões regulares para manter sua saúde e qualidade de vida.
+        </p>
+        <p>
+            Pacientes portadores de outras doenças, como o câncer (principalmente a leucemia), vítimas de acidentes graves e indivíduos submetidos a cirurgias de grande porte também podem necessitar de transfusões sanguíneas.
+        </p>
+        <p>
+            A demanda por sangue é constante e urgente, sobretudo em períodos em que há uma diminuição nos estoques dos bancos de sangue, como nas férias, festas regionais, durante o inverno ou em feriados prolongados. 
+            <strong>A escassez de sangue pode prejudicar seriamente o atendimento médico e colocar em risco a vida de muitas pessoas.</strong>
+        </p>
+        <p>
+            Não existe um substituto para o sangue humano e a melhor maneira de suprir essa necessidade é por meio da doação voluntária. 
+            <strong>Uma bolsa de sangue doada é capaz de beneficiar múltiplos pacientes,</strong>
+            uma vez que a quantidade de sangue total pode ser fracionada de acordo com os seus constituintes.
+        </p>
+        <img src="assets/img/img-isbt-128-seu-banco-de-sangue-segue-esse-padrao.jpg" alt="bolsas de sangue" class="img">
+        <p>
+            Portanto, o principal objetivo da doação é manter os estoques dos bancos de sangue sempre abastecidos, não apenas em datas específicas ou quando algum conhecido precisar.
+        </p>
+    </article>
+
+    <img src="assets/img/DoacaoSang.jpg" alt="simbolo da doação de sangue" class="img">
+
+    <h2 class="titulo" id="requisitos">Quais são os requisitos para doação de sangue?</h2>
+    <ul class="lista">
+        
+        <li>
+            <i class="icon-default-style fa fa-check accent-color"></i>
+            Apresentar documento original com foto.
+        </li>
+
+        <li>
+            <i class="icon-default-style fa fa-check accent-color"></i>
+            Ter entre 16 e 69 anos. Para maiores de 60 anos, é preciso ter doado sangue pelo menos uma vez antes de completar 60 anos, 11 meses e 29 dias. Menores de idade devem ter entre 16 e 17 anos e estar acompanhados do responsável legal. 
+            <a href="https://saude.se.gov.br/adolescentes-entre-16-e-17-anos-podem-fazer-doacao-de-sangue/" target="_blank">(Ver regras)</a>
+        </li>
+
+        <li>
+            <i class="icon-default-style fa fa-check accent-color"></i>
+            Sentir-se fisicamente bem.
+        </li>
+
+        <li>
+            <i class="icon-default-style fa fa-check accent-color"></i>
+            Pesar acima de 50 quilos.
+        </li>
+
+        <li>
+            <i class="icon-default-style fa fa-check accent-color"></i>
+            Não ter doado sangue a menos de 60 dias e 4 doações anuais (homens) ou 90 dias e 3 doações anuais (mulheres).
+        </li>
+
+        <li>
+            <i class="icon-default-style fa fa-check"></i>
+            Não estar em jejum, porém evitar o consumo de alimentos gordurosos 3 horas antes da doação.
+        </li>
+        <li>
+            <i class="icon-default-style fa fa-check accent-color"></i>
+            Não ter recebido sangue ou derivados há menos de 01 ano.
+        </li>
+        <li>
+            <i class="icon-default-style fa fa-check accent-color"></i>
+            Não ter apresentado sintomas gripais, febre ou diarreia nos últimos 14 dias.
         </li>
     </ul>
-   
 
-    
+    <h2 class="titulo" id="imptemp">Fatores de impedimento temporário:</h2>
+    <ul class="lista">
+        <li>
+            <i class="icon-default-style fa fa-check"></i>
+            Covid-19 X Vacinas – Coronavac, Sinovac, Butantan e Covaxin, deve aguardar 48h após aplicação da dose para realizar uma doação. As demais vacinas devem-se aguardar 7 dias após aplicação.
+        </li>
+        <li>
+            <i class="icon-default-style fa fa-check"></i>
+            Covid-19 – Pessoas com diagnóstico positivo ou suspeita de covid-19 estão aptas a doarem 10 dias após a cura da doença.
+        </li>
+        <li>
+            <i class="icon-default-style fa fa-check"></i>
+            Gravidez – Parto: até 3 meses após.
+        </li>
+        <li>
+            <i class="icon-default-style fa fa-check"></i>
+            Aborto Até 3 meses ter abortado.
+        </li>
+        <li>
+            <i class="icon-default-style fa fa-check"></i>
+            Amamentação – Se o parto ocorreu há menos de 12 meses.
+        </li>
+        <li>
+            <i class="icon-default-style fa fa-check"></i>
+            Relação sexual – com novo(a) parceiro(a) há menos de 6 meses.
+        </li>
+        <li>
+            <i class="icon-default-style fa fa-check"></i>
+            Qualquer infecção, alergia ou ferimento recente (informe-se sobre).
+        </li>
+        <li>
+            <i class="icon-default-style fa fa-check"></i>
+            Medicamentos – Uso contínuo ou recente de qualquer medicamento (informe-se sobre).
+        </li>
+        <li>
+            <i class="icon-default-style fa fa-check"></i>
+            Bebidas alcóolicas – Uso nas 12 horas anteriores à doação.
+        </li>
+        <li>
+            <i class="icon-default-style fa fa-check"></i>
+            Uso de drogas ilícitas (informe-se, dependendo da droga o impedimento é definitivo).
+        </li>
+        <li>
+            <i class="icon-default-style fa fa-check"></i>
+            Tratamento odontológico recente (informe-se sobre).
+        </li>
+        <li>
+            <i class="icon-default-style fa fa-check"></i>
+            Cirurgias ou exames endoscópicos (informe-se sobre).
+        </li>
+        <li>
+            <i class="icon-default-style fa fa-check"></i>
+            Vacinação (informe-se sobre).
+        </li>
+        <li>
+            <i class="icon-default-style fa fa-check"></i>
+            Tatuagem, piercing ou maquiagem definitiva nos 6 meses anteriores à doação.
+        </li>
+        <li>
+            <i class="icon-default-style fa fa-check"></i>
+            Viagem internacional – nos 15 dias anteriores à doação (informe-se sobre).
+        </li>
+        <li>
+            <i class="icon-default-style fa fa-check"></i>
+            Viagens para áreas endêmicas de malária nos 12 meses anteriores à doação.
+        </li>
+        <li>
+            <i class="icon-default-style fa fa-check"></i>
+            Tuberculose Pulmonar – 5 anos após a cura.
+        </li>
+    </ul>
 
-    
-    
+    <h2 class="titulo" id="impdef">Fatores de impedimento definitivo:</h2>
+    <ul class="lista">
+        <li>
+            <i class="icon-default-style fa fa-times"></i>
+            Apresentar ou ter histórico das seguintes infecções: HIV, Doença de Chagas, Tuberculose Extrapulmonar, Hepatite após os 11 anos de idade (Hepatite A pode doar).
+        </li>
+        <li>
+            <i class="icon-default-style fa fa-times"></i>
+            Ser dependente de insulina.
+        </li>
+        <li>
+            <i class="icon-default-style fa fa-times"></i>
+            Apresentar cardiopatias (doenças relacionadas ao coração).
+        </li>
+        <li>
+            <i class="icon-default-style fa fa-times"></i>
+            Ter realizado tratamento oncológico (radioterapia e/ou quimioterapia).
+        </li>
+        <li>
+            <i class="icon-default-style fa fa-times"></i>
+            Possuir piercing na língua e/ou na região genital enquanto estiver fazendo uso e 1 ano após retirada.
+        </li>
+    </ul>
 
+    <h3 class="titulo" id="uctcp">Doação de sangue no Hemepar – Cornélio Procópio – PR</h3>
+    <img src="assets/img/hemepar_logo.png" alt="Logo Hemepar" id="imghemepar">
+    <ul class="lista">
+        <li>
+            <i class="fa-solid fa-clock"></i>
+            Horário de funcionamento: De segunda a sexta-feira das 7h30 às 11h
+        </li>
+        <li>
+            <i class="fa-solid fa-phone"></i>
+            <a href="tel:+554335203500">Telefone: (43) 3520-3500</a>
+        </li>
+        <li>
+            <i class="fa-solid fa-calendar"></i>
+            <a href="https://www.saude.pr.gov.br/servicos/Saude/Atencao-a-Saude/Agendar-doacao-de-sangue-no-Hemepar-xv3Kqxo1" target="_blank">Agendamento online</a>
+        </li>
+        <li>
+            <i class="fa-solid fa-location-dot"></i>
+            Endereço: R. Justino Marquês Bonfim, 27 – Cornélio Procópio, PR, 86300-000
+        </li>
+    </ul>
+
+    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14671.561919637297!2d-50.6337268!3d-23.174197!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eadede65a63323%3A0x4e43fca4ab5d7947!2zVUNUIERFIENPUk7DiUxJTyBQUk9Dw5NQSU8g4oCTIDE4wqpSUyAtIEhlbW9jZW50cm8!5e0!3m2!1spt-BR!2sbr!4v1714881092952!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <footer>
+        <p>Desenvolvido por:</p>
+        <div id="dev">
+            <p>Eduardo Carvalho de Oliveira</p>
+            <div class="buttons">
+                <a href="https://www.linkedin.com/in/eduardo-carvalho-de-oliveira/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/eduardocarvalhoo1" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
