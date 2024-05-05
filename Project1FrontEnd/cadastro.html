@@ -3,44 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <style>
-        *{
-            font-family: Arial, Helvetica, sans-serif;
-        }
-    </style>
+    <link rel="stylesheet" href="assets/css/cadastro.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <title>Cadastro</title>
 </head>
 <body>
-    <h1>Cadastro</h1>
+    <div id="tl-cadastro">
+        <h1>Cadastrar</h1>
+        <br>
+        <form action="login.html">
 
-    <form action="login.html" method="post">
-        <p>
-            <label for="inome">Nome:</label>
-            <input type="text" name="nome" id="inome" required>
-        </p>
+            <label for="inome">Nome</label>
+            <div class="input">
+                <span class="material-symbols-outlined">
+                    person
+                </span>
+                <input type="text" name="nome" id="inome" required placeholder="Nome">
+            </div>
 
-        <p>
-            <label for="isobrenome">Sobrenome:</label> 
-            <input type="text" name="sobrenome" id="isobrenome>" required>
-        </p>
+            <label for="isobrenome">Sobrenome</label>
+            <div class="input">
+                <span class="material-symbols-outlined">
+                    person
+                </span> 
+                <input type="text" name="sobrenome" id="isobrenome" required placeholder="Sobrenome">
+            </div>
 
-        <p>
-            <label for="iemail">E-mail:</label>
-            <input type="email" name="email" id="iemail" required>
-        </p>
+            <label for="iemail">E-mail</label>
+            <div class="input">
+                <span class="material-symbols-outlined">
+                    mail
+                </span>
+                <input type="email" name="email" id="iemail" required placeholder="E-mail">
+            </div>
 
-        <p>
-            <label for="isenha">Senha:</label>
-            <input type="password" name="senha" id="isenha" required>
-        </p>
+            <label for="inasci">Data de nascimento</label>
+            <div>
+                <input type="date" name="nascimento" id="inasci" required>
+            </div>
 
-        <p>
-            <label for="inasci">Data de nascimento: </label>
-            <input type="date" name="nascimento" id="inasci" required max="2008-04-30">
-        </p>
+            <label for="isenha">Senha</label>
+            <div class="input">
+                <span class="material-symbols-outlined">
+                    lock
+                </span>
+                <input type="password" name="senha" id="isenha" required placeholder="Senha">
+            </div>
 
-        <p><input type="submit" value="Enviar"></p>
-    </form>
+            <div id="bt">
+                <button type="submit" >Enviar</button>
+            </div>
+
+        </form>    
+    </div>
 </body>
 </html>
