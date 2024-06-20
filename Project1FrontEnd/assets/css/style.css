@@ -34,6 +34,10 @@
     float: right;
 }
 
+#admin{
+    float: right;
+}
+
 #menu-nav ul li:last-child a{
     float: right;
 }
@@ -150,6 +154,7 @@ footer {
     text-align: center; /* Centraliza o conteúdo */
     background-color: #F21D56;
     padding-bottom: 20px;
+    width: 100%;
 }
 
 footer p {
