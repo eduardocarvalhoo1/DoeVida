@@ -26,12 +26,22 @@
             <input type="text" name="senha" id="isenha" required placeholder="Nome do usuário">
         </div>
 
-        <br>
-            
-        <button class="botao" type="submit">Enviar</button>
+        <br> 
+        <button class="botao" id="enviar" type="submit">Enviar</button>
         <br>
         <br>
         <button class="botao" type="button" id="limpar">Limpar</button>
+        <br>
+        <br>
+
+        <ul id="listaEnvios"></ul>
+        <br>
+        <button class="botao" id="excluirTudo">Excluir toda lista</button>
+
+        <div class="input">
+            <span class="material-symbols-outlined">search</span>
+            <input type="search" id="pesquisar" placeholder="Pesquisar">
+        </div>    
     </form>
 </body>
 <script src="admin.js"></script>

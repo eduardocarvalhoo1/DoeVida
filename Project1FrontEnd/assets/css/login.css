@@ -55,3 +55,11 @@ body{
     border-radius: 10px;
     cursor: pointer;
 }
+.delete-bt {
+    background: none;
+    border: none;
+    color: red;
+    cursor: pointer;
+    font-size: 20px; 
+}
+    
