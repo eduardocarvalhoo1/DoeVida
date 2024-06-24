@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/login.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-    <title>Login</title>
+    <title>Admin</title>
 </head>
 <body>
-    <form action="index.html" class="tl-login">
-        <h1>Login</h1>
+    <form action="index.html" class="tl-login" id="formadm">
+        <h1>Admin</h1>
         <br>
 
         <div class="input">
@@ -21,19 +21,28 @@
             <br>
         <div class="input">
             <span class="material-symbols-outlined">
-                lock
+                person
             </span>
-            <input type="password" name="senha" id="isenha" required placeholder="Senha">
+            <input type="text" name="senha" id="isenha" required placeholder="Nome do usuário">
         </div>
 
+        <br> 
+        <button class="botao" id="enviar" type="submit">Enviar</button>
         <br>
-            
-        <button class="botao" id="ibotao" type="submit">Enviar</button>
+        <br>
+        <button class="botao" type="button" id="limpar">Limpar</button>
+        <br>
+        <br>
 
-        <div>
-            <br>
-            <p>Não está Cadastrado? <a href="cadastro.html">Cadastrar</a></p>
-        </div>
+        <ul id="listaEnvios"></ul>
+        <br>
+        <button class="botao" id="excluirTudo">Excluir toda lista</button>
+
+        <div class="input">
+            <span class="material-symbols-outlined">search</span>
+            <input type="search" id="pesquisar" placeholder="Pesquisar">
+        </div>    
     </form>
 </body>
+<script src="admin.js"></script>
 </html>
